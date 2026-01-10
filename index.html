@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TorqueSim – Premium Sim Racing Equipment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+        <nav>
+            <div class="logo-area">
+                <img src="Images/logo_white.png" width="180" alt="TorqueSim Logo">
+                <p class="slogan">Precision Simracing For Everybody</p>
+            </div>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#featured">Wheelbase</a>
+                <a href="products.html">Products</a>
+                <a href="promotions.html">Promotions</a>
+                <a href="innovations.html">Innovations</a>
+                <a href="investors.html">Investors</a>
+                <a href="#about">About</a>
+                <a href="aboutfounder.html">About The Founder</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="cart">
+                <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+        <h1>Experience TorqueSim</h1>
+        <p>Precision Simracing For Everybody</p>
+        <a href="products.html" class="btn">Explore TorqueSim</a>
+    </section>
+
+    <!-- ================= FEATURED PRODUCT ================= -->
+    <section class="featured" id="featured">
+        <div class="featured-content">
+            <h2>TorqueSim DD18 Wheelbase</h2>
+            <p>18 Nm of smooth, brushless direct‑drive power. Built for racers who demand precision, strength, and immersion.</p>
+
+            <ul class="spec-list">
+                <li>18 Nm peak torque</li>
+                <li>High‑resolution encoder</li>
+                <li>Active cooling system</li>
+                <li>Modular expansion side panel</li>
+            </ul>
+
+            <a href="products.html" class="btn">Learn More</a>
+        </div>
+
+        <div class="featured-image" style="background-color:#406658;">
+            <img src="Images/wheelbase/logo simpleAsset 11Brake_side.png" alt="TorqueSim DD18 Wheelbase">
+        </div>
+    </section>
+
+    <!-- ================= PRODUCT CATEGORIES ================= -->
+    <section class="products-detailed">
+        <h1 style="padding: 5%;">Our Products</h1>
+        
+        <div class="product-details">
+
+            <!-- H-Pattern Shifter -->
+            <div class="product-item">
+                <h2>H-Pattern Shifter</h2>
+                <p>High‑precision, modular H-Pattern custom‑made for any motorsport. Experience unmatched control and responsiveness in every lap.</p>
+                <img src="Images/H-Pattern/logo simpleAsset 3Brake_side.png" style="height: 150px; border: 2px solid var(--accent); padding: 5px;">
+                <br>
+                <a href="#" class="btn add-to-cart" data-name="H-Pattern Shifter" data-price="199">Add to Cart</a>
+            </div>
+
+            <!-- WheelBase -->
+            <div class="product-item">
+                <h2>WheelBase</h2>
+                <p>A direct‑drive steering system capable of producing 18 Nm of torque. Feel every detail of the track with advanced force feedback technology.</p>
+                <img src="Images/wheelbase/Adobe Express - file.png" style="height: 150px; border: 2px solid var(--accent); padding: 5px;">
+                <br>
+                <a href="#" class="btn add-to-cart" data-name="WheelBase" data-price="499">Add to Cart</a>
+            </div>
+
+            <!-- Pedal Set -->
+            <div class="product-item">
+                <h2>Pedal Set</h2>
+                <p>Advanced load‑cell brake pedals with electronically adjustable magnetic dampers. Precision and realism at your feet.</p>
+                <img src="Images/Pedals/logo simpleAsset 7Brake_side.png" style="height: 150px; border: 2px solid var(--accent); padding: 5px;">
+                <br>
+                <a href="#" class="btn add-to-cart" data-name="Pedal Set" data-price="249">Add to Cart</a>
+            </div>
+
+            <!-- Sequential Shifter -->
+            <div class="product-item">
+                <h2>Sequential Shifter/Handbrake</h2>
+                <p>High‑precision, modular Sequential and Handbrake combination custom‑made for any motorsport. Experience unbeatable precision and responsiveness in every drive.</p>
+                <img src="Images/Handbrake/logo simpleAsset 3Brake_side.png" style="height: 150px; border: 2px solid var(--accent); padding: 5px;">
+                <br>
+                <a href="#" class="btn add-to-cart" data-name="Sequential Shifter/Handbrake" data-price="199">Add to Cart</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= ABOUT SECTION ================= -->
+    <section class="about" id="about">
+        <h2>TorqueSim's Mission</h2>
+        <p>
+            TorqueSim is dedicated to creating high‑performance sim racing hardware that delivers professional‑grade immersion without the professional‑grade price tag.
+            Every product is engineered with precision, durability, and modularity in mind.
+        </p>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions about TorqueSim products or need support? We're here to help.</p>
+
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <p>Email: support@torquesim.com</p>
+            <p>Location: Canada</p>
+
+            <div class="social-icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>&copy; 2026 TorqueSim. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

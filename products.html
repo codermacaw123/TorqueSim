@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - TorqueSim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <div class="logo-area">
+                <img src="Images/logo_white.png" width="180" alt="TorqueSim Logo">
+                <p class="slogan">Precision Simracing For Everybody</p>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="products-detailed">
+        <h1 style="padding: 5%;">Our Products</h1>
+
+        <div class="product-details">
+
+            <!-- H-Pattern Shifter -->
+            <div class="product-item">
+                <h2>H-Pattern Shifter</h2>
+                <p>High‑precision, modular H-Pattern custom‑made for any motorsport. Experience unmatched control and responsiveness in every lap.</p>
+                <img src="Images/H-Pattern/logo simpleAsset 3Brake_side.png" style="height: 250px; border: 2px solid var(--accent); padding: 5px;">
+                <br>
+                <a href="#" class="btn add-to-cart" data-name="H-Pattern Shifter" data-price="199">Add to Cart</a>
+            </div>
+
+            <!-- WheelBase -->
+            <div class="product-item">
+                <h2>WheelBase</h2>
+                <p>A direct‑drive steering system capable of producing 18 Nm of torque. Feel every detail of the track with advanced force feedback technology.</p>
+                <img src="Images/wheelbase/Adobe Express - file.png" style="height: 250px; border: 2px solid var(--accent); padding: 5px;">
+                <br>
+                <a href="#" class="btn add-to-cart" data-name="WheelBase" data-price="499">Add to Cart</a>
+            </div>
+
+            <!-- Pedal Set -->
+            <div class="product-item">
+                <h2>Pedal Set</h2>
+                <p>Advanced load‑cell brake pedals with electronically adjustable magnetic dampers. Precision and realism at your feet.</p>
+                <img src="Images/Pedals/logo simpleAsset 7Brake_side.png" style="height: 250px; border: 2px solid var(--accent); padding: 5px;">
+                <br>
+                <a href="#" class="btn add-to-cart" data-name="Pedal Set" data-price="249">Add to Cart</a>
+            </div>
+
+            <!-- Sequential Shifter -->
+            <div class="product-item">
+                <h2>Sequential Shifter/Handbrake</h2>
+                <p>High‑precision, modular Sequential and Handbrake combination custom‑made for any motorsport. Experience unbeatable precision and responsiveness in every drive.</p>
+                <img src="Images/Handbrake/logo simpleAsset 3Brake_side.png" style="height: 250px; border: 2px solid var(--accent); padding: 5px;">
+                <br>
+                <a href="#" class="btn add-to-cart" data-name="Sequential Shifter/Handbrake" data-price="199">Add to Cart</a>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="social-icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-tiktok"></i>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 TorqueSim. All rights reserved.</p>
+    </footer>
+
+    <!-- Load cart logic -->
+    <script src="sketch.js"></script>
+
+</body>
+</html>
